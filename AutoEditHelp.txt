@@ -1,0 +1,50 @@
+帮助文档
+此脚本基于Auto Hot Key
+AutoChange实现了打开/切换到编程软件后改变输入法为英文，其余软件为中文
+AutoEdit实现了注释自动切换为中文完毕后切换为英文
+帮助以 :help 呼出
+
+
+
+
+;--------------------------------------- 注释 ---------------------------------------
+<1    -->    <!-- and change backboard to chinese
+<!    -->    <!-- and change backboard to chinese
+/*    -->    /*** and change backboard to chinese
+//    -->    // and change backboard to chinese
+
+---    -->    --> and change backboard to english
+*/    -->    */ and change backboard to english
+...    -->    change backboard to english
+
+
+;--------------------------------------- Math类 ---------------------------------------
+:sqrt    -->    Math.sqrt
+
+
+;--------------------------------------- StringBuffer类 ---------------------------------------
+:sbf    -->    StringBuffer
+:asbf    -->    .append();
+:tstr    -->    .toString();
+
+
+;--------------------------------------- 三目运算 ---------------------------------------
+:=?    -->    =booleanType?ontrue:onfalse;
+
+
+;--------------------------------------- 语句 ---------------------------------------
+:switch    -->    Standard switch
+:try    -->    Standard try
+
+
+;--------------------------------------- new方法 ---------------------------------------
+:ndeque    -->    Standard new Deque 先进后出栈
+:nfos    -->    Standard new FileOutputStream
+:ntdint    -->    Standard new int[][]
+:nodint    -->    Standard new int[]
+:nscan    -->    Standard new scanner
+:nrand    -->    Standard new Random
+:nsbf    -->    Standard new StringBuffer
+:nmap    -->    Standard new map
+:nalist    -->    Standard new arraylist
+:nllist    -->    Standard new linklist 
